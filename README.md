@@ -1,5 +1,10 @@
 # bulma-to-scss
 
+## Requirement
+
+You need to have Sass (Ruby Sass >=3.4.5) installed. You can install it with
+
+`gem install sass`
 
 ## Install
 
