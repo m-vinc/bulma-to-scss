@@ -2,7 +2,6 @@ const gulp = require('gulp')
 const replace = require('gulp-replace')
 const converter = require('sass-convert')
 const runSequence = require('run-sequence')
-const fs = require('fs')
 
 gulp.task('bulmaConvert2', () => {
   return gulp.src('../bulma/sass/*/*')
