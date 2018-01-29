@@ -10,7 +10,7 @@ You need to have Sass (Ruby Sass >=3.4.5) installed. You can install it with
 
   `npm install bulma-to-scss`
 
-When installing the package, the latest version of bulma will be download and convert into scss
+When installing the package, the latest version of bulma and bulma-extensions will be download and convert into scss
 
 ### Meteor
 
