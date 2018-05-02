@@ -1,6 +1,6 @@
 {
   "name": "bulma-to-scss",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "",
   "repository": {
     "type": "git",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bulma": "^0.6.2",
-    "bulma-extensions": "^0.7.3",
+    "bulma": "^0.7.1",
+    "bulma-extensions": "1.0.14",
     "gulp": "^3.9.1",
     "gulp-insert": "^0.5.0",
     "gulp-replace": "^0.6.1",
