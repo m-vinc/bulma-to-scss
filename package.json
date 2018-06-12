@@ -1,25 +1,20 @@
 {
   "name": "bulma-to-scss",
-  "version": "1.1.8",
+  "version": "2.0.1",
   "description": "",
   "repository": {
     "type": "git",
     "url": "https://github.com/m-vinc/bulma-to-scss"
   },
-  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "npx gulp bulma"
+    "postinstall": "node sass2scss.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bulma": "^0.7.1",
     "bulma-extensions": "1.0.14",
-    "gulp": "^3.9.1",
-    "gulp-insert": "^0.5.0",
-    "gulp-replace": "^0.6.1",
-    "run-sequence": "^2.2.1",
-    "sass-convert": "^0.5.2"
+    "fs-extra": "^6.0.1"
   }
 }
